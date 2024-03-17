@@ -1,5 +1,11 @@
 <template>
-  <nav aria-label="breadcrumb">
+  <nav
+    aria-label="breadcrumb"
+    data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="1000"
+  >
     <ol class="breadcrumbs">
       <li v-for="(item, index) in items" :key="index" class="breadcrumb-item">
         <router-link v-if="item.href" :to="item.href">{{

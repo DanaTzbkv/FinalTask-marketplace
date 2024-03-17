@@ -3,7 +3,13 @@
   <div class="full-width-container">
     <div class="wrapper">
       <BreadCrumbs :items="breadcrumbsItems" />
-      <div class="product-card-content">
+      <div
+        class="product-card-content"
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="1000"
+      >
         <div class="product-card-container">
           <div class="product-image-container">
             <img

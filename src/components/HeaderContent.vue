@@ -1,6 +1,11 @@
 <template>
   <div class="wrapper">
-    <div class="header-content">
+    <div
+      class="header-content"
+      data-aos="zoom-out"
+      data-aos-delay="100"
+      data-aos-duration="2000"
+    >
       <div class="text-description">
         <h1>Маркетплейс с душой</h1>
         <p>Плати людям, а не корпорациям</p>

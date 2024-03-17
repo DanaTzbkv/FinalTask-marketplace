@@ -1,7 +1,14 @@
 <template>
   <div class="full-width-container">
     <div class="wrapper">
-      <div v-for="(section, index) in sections" :key="index">
+      <div
+        v-for="(section, index) in sections"
+        :key="index"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        data-aos-duration="2000"
+        data-aos-offset="200"
+      >
         <h2 id="product-catalog-title">{{ section.title }}</h2>
         <div id="product-catalog">
           <div

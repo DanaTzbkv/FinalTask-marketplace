@@ -1,7 +1,13 @@
 <template>
   <MainHeader />
   <div class="full-width-container">
-    <div class="wrapper">
+    <div
+      class="wrapper"
+      data-aos="fade-left"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="1000"
+    >
       <BreadCrumbs :items="breadcrumbsItems" />
       <h2>Моя корзина</h2>
       <div class="cart">
